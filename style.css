@@ -1,0 +1,241 @@
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700&family=Poppins:wght@300;400;500&display=swap');
+
+body{
+    font-family: 'Kaisei Tokumin', serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* all-image-fluid-fluid */
+.img-fluid{
+  display: block;
+  margin: auto;
+}
+
+
+
+
+
+/* ------------header-part-start----------- */
+#header{
+    background-image: url(product-image/carousel-shop.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text-white h2{
+    font-size: 60px;
+    color: #f59d9d;
+    font-weight: 700;
+    font-family: 'Kaisei Tokumin', serif;
+}
+.text-white h1{
+    font-size: 70px;
+    color: #f59d9d;
+    font-weight: 700;
+    font-family: 'Kaisei Tokumin', serif;
+}
+.text-white .btn{
+    background: black;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 50px;
+}
+.text-white .btn:hover{
+    color: white;
+}
+/* ------------header-part-end----------- */
+
+
+
+
+
+/* ---------------collection-part-one--------------- */
+.title h2::before{
+    position: absolute;
+    content: '';
+    width: 4px;
+    height: 50px;
+    background-color: red;
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.btn.rounded-pill.m-2 {
+    border: 2px solid #a3a1a1;
+  }
+  .btn.rounded-pill.m-2:hover{
+    color: white;
+    background: #f78282;
+  }
+  .active-fillter-btn{
+    background: #f78282 !important;
+
+  }
+
+  .collection-image span {
+    top: 10px;
+    right: 10px;
+    border-radius: 50%;
+    background: #fd9494;
+    color: white;
+    padding: 11px;
+    font-size: 12px;
+  }
+  .collection-image img{
+    height: 250px;
+  }
+/* ---------------collection-part-end--------------- */
+
+
+
+
+/* --------------special-section-part-------------- */
+.speacial-img span{
+  top: 20px;
+  right: 20px;
+  font-size: 30px;
+}
+.speacial-img img{
+  transition: all .3s ease;
+  height: 250px;
+  width: 300px;
+}
+.speacial-img img:hover{
+  transform: scale(1.1);
+}
+.speacial-list .btn{
+  font-family: 'Kaisei Tokumin', serif;
+  background: none;
+  border-radius: 50px;
+  color: black;
+  font-weight: 300;
+  border: 1px solid #3e3d3d;
+}
+.speacial-list .btn:hover{
+  background: #f17474;
+}
+
+/* --------------special-section-part-end-------------- */
+
+
+
+
+
+
+/* ---------------offers-section-start-here-------------- */
+#offers{
+  background-image: url(product-image/carousel-shop-1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Kaisei Tokumin', serif;
+  color: black;
+}
+#offers .row{
+  min-height: 80vh;
+}
+#offers .row span{
+  font-size: 30px;
+  font-family: 'Kaisei Tokumin', serif;
+
+}
+#offers .row h2{
+  font-size: 60px;
+  font-family: 'Kaisei Tokumin', serif;
+}
+#offers .row .btn{
+  font-family: 'Kaisei Tokumin', serif;
+  border: transparent;
+  background: white;
+  color: black;
+  border-radius: 50px;
+  font-size: 25px;
+  font-weight: 500;
+}
+#offers .row .btn:hover{
+  background-color: #f56767;
+  color: white;
+}
+
+/* ---------------offers-section-end-here-------------- */
+
+
+
+
+
+
+
+/* ---------------blog-section-end-here-------------- */
+#blog .card img{
+  height: 200px;
+  width: 100%;
+}
+#blog .card a{
+  background: none;
+  text-decoration: none;
+  color: #484848;
+  margin: 4px 0;
+  display: inline-block;
+  padding: 6px 20px;
+  border-radius: 50px;
+  border: 1px solid #484848;
+}
+#blog .card a:hover{
+  background: #f17474;
+  color: white;
+}
+/* ---------------blog-section-end-here-------------- */
+
+
+
+
+
+
+/* newlater-section-start-here */
+#newslater{
+  max-width: 600px;
+}
+#newlater .input-group{
+  max-width: 500px;
+}
+#newslater .form-control{
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+#newslater .btn{
+  background: #f56767;
+  color: white;
+  border-color: transparent;
+  border: transparent;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+#newslater .btn:hover{
+  background: black;
+  border-color: black;
+}
+/* newlater-section-end-here */
+
+
+
+
+
+
+
+/* fotter-section-start-here */
+#fotter{
+  font-family: 'Kaisei Tokumin', serif;
+  background: black;
+  color: white;
+}
+/* fotter-section-end-here */
